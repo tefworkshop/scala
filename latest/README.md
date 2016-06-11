@@ -15,8 +15,8 @@ The docker targets are named after the subdirectories of the repository.
        `docker run -ti --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix tefworkshop/scala:eclipse`
 + :ideaIC - Untested installation of IntelliJ IDEA with Scala plugin
 
-        `docker run -ti --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix tefworkshop/scala:ideaIC`
+       `docker run -ti --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix tefworkshop/scala:ideaIC`
 + :HelloWorld - End-to-end test of the automated build
 
-        `docker run -ti tefworkshop/scala:HelloWorld`
+       `docker run -ti tefworkshop/scala:HelloWorld`
  
