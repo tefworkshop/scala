@@ -7,7 +7,7 @@ Quote: Functional programming is becoming increasingly widespread in industry. T
 The following targets are available:
 -----------------------------------------------
 The docker targets are named after the subdirectories of the repository.
-+ :latest - Core installation with Java, SBT and Scala. Provides a bash.
-+ :HelloWorld - End-to-end test of the automated build
++ :latest - Core installation with Java, SBT and Scala
 + :eclipse - Eclipse with Scala plugin and HelloWorld project
 + :ideaIC - Untested installation of IntelliJ IDEA with Scala plugin
++ :HelloWorld - End-to-end test of the automated build
