@@ -11,3 +11,5 @@ The docker targets are named after the subdirectories of the repository.
 + :eclipse - Eclipse with Scala plugin and HelloWorld project
 + :ideaIC - Untested installation of IntelliJ IDEA with Scala plugin
 + :HelloWorld - End-to-end test of the automated build
+ 
+'docker run -ti --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix tefworkshop/scala:eclipse'
